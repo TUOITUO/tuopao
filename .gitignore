@@ -1,0 +1,10 @@
+# 签名密钥：含私钥，禁止入库
+debug.jks
+
+# 构建中间产物
+build/
+*.idsig
+__pycache__/
+*.pyc
+
+# 说明：tuopao.apk 为已构建的发布成品，故意纳入仓库/Release 以便直接下载
